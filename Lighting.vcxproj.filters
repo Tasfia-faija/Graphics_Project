@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Users\tasfi\Downloads\GLFW GLAD Installation Using Visual Studio 2022-20230829T151648Z-001\opengl\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pointLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drawcube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="directionalLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="potion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="benchtool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ebook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="almari.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="floorfire.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="staircase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="library.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wallfireholder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="torus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jharbati.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="goblet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mainstair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pyramid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cylinder2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="broom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\fragmentShader.fs" />
+    <None Include="Shader\GouraudShading\fragmentShaderForGouraudShading.fs" />
+    <None Include="Shader\PhongShading\fragmentShaderForPhongShading.fs" />
+    <None Include="Shader\PhongShadingWithTexture\fragmentShaderForPhongShadingWithTexture.fs" />
+    <None Include="Shader\vertexShader.vs" />
+    <None Include="Shader\GouraudShading\vertexShaderForGouraudShading.vs" />
+    <None Include="Shader\PhongShading\vertexShaderForPhongShading.vs" />
+    <None Include="Shader\PhongShadingWithTexture\vertexShaderForPhongShadingWithTexture.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Texture\bedpichon.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\red-sofa.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\mywindow.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\chair.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\fr.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\dumb.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\table.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\sofacushion.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\potion.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\doorr.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\board.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\carpet.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\greathalldoor.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\snape.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\hagrid.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\miinevera.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\gryf.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\sword.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\gobletfire.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\Harry.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\volde.jpeg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\roq.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\tiara.jpeg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\tiara.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\locket.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\scull.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\castlewall.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\chotowindow.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\palace_window.jpeg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\palace_window.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\doorcopy.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\castledoor.jpeg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\sky.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\grass.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Texture\leaf.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
